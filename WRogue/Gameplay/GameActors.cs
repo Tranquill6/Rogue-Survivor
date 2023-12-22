@@ -39,6 +39,8 @@ namespace djack.RogueSurvivor.Gameplay
 
             UNDEAD_RAT_ZOMBIE,
 
+            UNDEAD_ZOMBIE_BRUTE,
+
             MALE_CIVILIAN,
             FEMALE_CIVILIAN,
             FERAL_DOG,
@@ -107,6 +109,7 @@ namespace djack.RogueSurvivor.Gameplay
         public ActorModel MaleDisciple { get { return this[IDs.UNDEAD_MALE_DISCIPLE]; } }
         public ActorModel FemaleDisciple { get { return this[IDs.UNDEAD_FEMALE_DISCIPLE]; } }
         public ActorModel RatZombie { get { return this[IDs.UNDEAD_RAT_ZOMBIE]; } }
+        public ActorModel ZombieBrute { get { return this[IDs.UNDEAD_ZOMBIE_BRUTE]; } }
         public ActorModel SewersThing { get { return this[IDs.SEWERS_THING]; } }
 
         public ActorModel MaleCivilian { get { return this[IDs.MALE_CIVILIAN]; } }
